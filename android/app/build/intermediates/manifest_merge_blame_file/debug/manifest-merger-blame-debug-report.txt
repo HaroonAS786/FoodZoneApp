@@ -1,0 +1,286 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.foodzone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.182.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+14-->[:react-native-firebase_auth] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_auth] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+15-->[:react-native-firebase_auth] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+16
+17    <application
+17-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:5:5-24:19
+18        android:name="com.foodzone.MainApplication"
+18-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:6:7-38
+19        android:allowBackup="false"
+19-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:10:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/75e4635b66fa4e4e84e71b52579837ce/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:8:7-41
+23        android:label="@string/app_name"
+23-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:7:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:9:7-52
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:11:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:8:9-44
+28        <activity
+28-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:11:9-111
+29            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+29-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:11:19-83
+30            android:exported="false" />
+30-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:11:84-108
+31        <activity
+31-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:12:7-23:18
+32            android:name="com.foodzone.MainActivity"
+32-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:13:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+33-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:15:9-118
+34            android:exported="true"
+34-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:18:9-32
+35            android:label="@string/app_name"
+35-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:14:9-41
+36            android:launchMode="singleTask"
+36-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:16:9-40
+37            android:windowSoftInputMode="adjustResize" >
+37-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:17:9-51
+38            <intent-filter>
+38-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:19:9-22:25
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:20:13-65
+39-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:20:21-62
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:21:13-73
+41-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:21:23-70
+42            </intent-filter>
+43        </activity>
+44
+45        <meta-data
+45-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+46            android:name="app_data_collection_default_enabled"
+46-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+47            android:value="true" />
+47-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+48
+49        <service
+49-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+50            android:name="com.google.firebase.components.ComponentDiscoveryService"
+50-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+51            android:directBootAware="true"
+51-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+52            android:exported="false" >
+52-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+53            <meta-data
+53-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+54                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+54-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+57                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+57-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/c8fc951b0cd69a86da54c3a2ed411999/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+60                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+60-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/c8fc951b0cd69a86da54c3a2ed411999/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/c8fc951b0cd69a86da54c3a2ed411999/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+63                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+63-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+65        </service>
+66
+67        <provider
+67-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+68            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+68-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+69            android:authorities="com.foodzone.reactnativefirebaseappinitprovider"
+69-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+70            android:exported="false"
+70-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+71            android:initOrder="99" />
+71-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+72
+73        <activity
+73-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+74            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+74-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+75            android:excludeFromRecents="true"
+75-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+76            android:exported="true"
+76-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+77            android:launchMode="singleTask"
+77-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+78-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+79            <intent-filter>
+79-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+80                <action android:name="android.intent.action.VIEW" />
+80-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+80-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+81
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+82-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+83                <category android:name="android.intent.category.BROWSABLE" />
+83-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+83-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+84
+85                <data
+85-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+86                    android:host="firebase.auth"
+86-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+87                    android:path="/"
+87-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+88                    android:scheme="genericidp" />
+88-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+92            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+92-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+93            android:excludeFromRecents="true"
+93-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+94            android:exported="true"
+94-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+95            android:launchMode="singleTask"
+95-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+96-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+97            <intent-filter>
+97-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+98                <action android:name="android.intent.action.VIEW" />
+98-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+98-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+100-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+101                <category android:name="android.intent.category.BROWSABLE" />
+101-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+101-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+102
+103                <data
+103-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:41:17-44:51
+104                    android:host="firebase.auth"
+104-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:42:21-49
+105                    android:path="/"
+105-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:43:21-37
+106                    android:scheme="recaptcha" />
+106-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:44:21-48
+107            </intent-filter>
+108        </activity>
+109
+110        <provider
+110-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+111            android:name="com.google.firebase.provider.FirebaseInitProvider"
+111-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+112            android:authorities="com.foodzone.firebaseinitprovider"
+112-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+113            android:directBootAware="true"
+113-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+114            android:exported="false"
+114-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+115            android:initOrder="100" />
+115-->[com.google.firebase:firebase-common:20.4.2] /Users/tk-lpt-986/.gradle/caches/transforms-3/daf9a7bf3a48ab270ea5762e95491cd6/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+116
+117        <activity
+117-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+118            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+118-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+119            android:excludeFromRecents="true"
+119-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+122        <!--
+123            Service handling Google Sign-In user revocation. For apps that do not integrate with
+124            Google Sign-In, this service will never be started.
+125        -->
+126        <service
+126-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+127            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+127-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+128            android:exported="true"
+128-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+129            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+129-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+130            android:visibleToInstantApps="true" />
+130-->[com.google.android.gms:play-services-auth:20.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/39737e3ab5e52c982290d9325f3afbbe/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+131
+132        <activity
+132-->[com.google.android.gms:play-services-base:18.0.1] /Users/tk-lpt-986/.gradle/caches/transforms-3/5c5981df95557675d2e59dd19bcd65bb/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:18.0.1] /Users/tk-lpt-986/.gradle/caches/transforms-3/5c5981df95557675d2e59dd19bcd65bb/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:18.0.1] /Users/tk-lpt-986/.gradle/caches/transforms-3/5c5981df95557675d2e59dd19bcd65bb/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:18.0.1] /Users/tk-lpt-986/.gradle/caches/transforms-3/5c5981df95557675d2e59dd19bcd65bb/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:18.2.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/7474ea6f701d343bb9a483fcdd8d0019/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:18.2.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/7474ea6f701d343bb9a483fcdd8d0019/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:18.2.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/7474ea6f701d343bb9a483fcdd8d0019/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+140
+141        <provider
+141-->[androidx.emoji2:emoji2:1.0.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+142            android:name="androidx.startup.InitializationProvider"
+142-->[androidx.emoji2:emoji2:1.0.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+143            android:authorities="com.foodzone.androidx-startup"
+143-->[androidx.emoji2:emoji2:1.0.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+144            android:exported="false" >
+144-->[androidx.emoji2:emoji2:1.0.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+145            <meta-data
+145-->[androidx.emoji2:emoji2:1.0.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+146                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+146-->[androidx.emoji2:emoji2:1.0.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+147                android:value="androidx.startup" />
+147-->[androidx.emoji2:emoji2:1.0.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+148            <meta-data
+148-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+149                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+149-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+150                android:value="androidx.startup" />
+150-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+151        </provider>
+152
+153        <meta-data
+153-->[com.facebook.soloader:soloader:0.10.5] /Users/tk-lpt-986/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+154            android:name="com.facebook.soloader.enabled"
+154-->[com.facebook.soloader:soloader:0.10.5] /Users/tk-lpt-986/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+155            android:value="false" />
+155-->[com.facebook.soloader:soloader:0.10.5] /Users/tk-lpt-986/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+156    </application>
+157
+158</manifest>
