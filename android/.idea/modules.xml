@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/44598699/FoodZone.react-native-mmkv.main.iml" filepath="$PROJECT_DIR$/.idea/modules/44598699/FoodZone.react-native-mmkv.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/111583753/FoodZone.react-native-reanimated.main.iml" filepath="$PROJECT_DIR$/.idea/modules/111583753/FoodZone.react-native-reanimated.main.iml" />
     </modules>
   </component>

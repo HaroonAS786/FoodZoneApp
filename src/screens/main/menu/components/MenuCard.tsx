@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: "space-between",
-        width: SCREEN_WIDTH * 0.6,
+        width: SCREEN_WIDTH * 0.55,
     },
     view: {
         width: 25,

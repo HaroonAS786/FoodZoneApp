@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: "space-between",
-        width: SCREEN_WIDTH * 0.6,
+        width: SCREEN_WIDTH * 0.55,
     },
     removeBtn: {
         flexDirection: 'row',
@@ -76,7 +76,8 @@ const styles = StyleSheet.create({
         backgroundColor: themeColors.primary,
         borderRadius: 8,
         borderWidth: 1,
-        borderColor: themeColors.black
+        borderColor: themeColors.black,
+    
     }
 });
 

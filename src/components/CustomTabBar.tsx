@@ -64,7 +64,8 @@ const styles = StyleSheet.create({
         backgroundColor: themeColors.white,
         padding: 10,
         borderColor: themeColors.black400,
-        borderWidth: .2
+        borderWidth: .2,
+        borderBottomWidth: 0
     },
     button: {
         flex: 1,

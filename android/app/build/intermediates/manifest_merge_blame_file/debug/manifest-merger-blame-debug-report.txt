@@ -9,94 +9,94 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:3:5-67
-12-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:3:22-64
+12-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:3:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.182.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.182.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[:react-native-firebase_auth] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
-14-->[:react-native-firebase_auth] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+14-->[:react-native-firebase_auth] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+14-->[:react-native-firebase_auth] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:react-native-firebase_auth] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-15-->[:react-native-firebase_auth] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+15-->[:react-native-firebase_auth] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+15-->[:react-native-firebase_auth] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 16
 17    <application
-17-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:5:5-24:19
+17-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:5:5-24:19
 18        android:name="com.foodzone.MainApplication"
-18-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:6:7-38
+18-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:6:7-38
 19        android:allowBackup="false"
-19-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:10:7-34
+19-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:10:7-34
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 20-->[androidx.core:core:1.7.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/75e4635b66fa4e4e84e71b52579837ce/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
-22-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:8:7-41
+22-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:8:7-41
 23        android:label="@string/app_name"
-23-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:7:7-39
+23-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:7:7-39
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:9:7-52
+24-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:9:7-52
 25        android:testOnly="true"
 26        android:theme="@style/AppTheme"
-26-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:11:7-38
+26-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:11:7-38
 27        android:usesCleartextTraffic="true" >
-27-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:8:9-44
+27-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/debug/AndroidManifest.xml:8:9-44
 28        <activity
-28-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:11:9-111
+28-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/debug/AndroidManifest.xml:11:9-111
 29            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-29-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:11:19-83
+29-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/debug/AndroidManifest.xml:11:19-83
 30            android:exported="false" />
-30-->/Users/tk-lpt-986/FoodZone/android/app/src/debug/AndroidManifest.xml:11:84-108
+30-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/debug/AndroidManifest.xml:11:84-108
 31        <activity
-31-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:12:7-23:18
+31-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:12:7-23:18
 32            android:name="com.foodzone.MainActivity"
-32-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:13:9-37
+32-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:13:9-37
 33            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-33-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:15:9-118
+33-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:15:9-118
 34            android:exported="true"
-34-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:18:9-32
+34-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:18:9-32
 35            android:label="@string/app_name"
-35-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:14:9-41
+35-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:14:9-41
 36            android:launchMode="singleTask"
-36-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:16:9-40
+36-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:16:9-40
 37            android:windowSoftInputMode="adjustResize" >
-37-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:17:9-51
+37-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:17:9-51
 38            <intent-filter>
-38-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:19:9-22:25
+38-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:19:9-22:25
 39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:20:13-65
-39-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:20:21-62
+39-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:20:13-65
+39-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:20:21-62
 40
 41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:21:13-73
-41-->/Users/tk-lpt-986/FoodZone/android/app/src/main/AndroidManifest.xml:21:23-70
+41-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:21:13-73
+41-->/Users/tk-lpt-986/Pictures/FoodZoneApp/android/app/src/main/AndroidManifest.xml:21:23-70
 42            </intent-filter>
 43        </activity>
 44
 45        <meta-data
-45-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
+45-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-11:36
 46            android:name="app_data_collection_default_enabled"
-46-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
+46-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-63
 47            android:value="true" />
-47-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
+47-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-33
 48
 49        <service
-49-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
+49-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-21:19
 50            android:name="com.google.firebase.components.ComponentDiscoveryService"
-50-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
+50-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-84
 51            android:directBootAware="true"
-51-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
+51-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-43
 52            android:exported="false" >
-52-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+52-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 53            <meta-data
-53-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
+53-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:85
 54                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-54-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
+54-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-120
 55                android:value="com.google.firebase.components.ComponentRegistrar" />
-55-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
+55-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-82
 56            <meta-data
 56-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
 57                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -118,15 +118,15 @@
 65        </service>
 66
 67        <provider
-67-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
+67-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-27:38
 68            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-68-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
+68-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-88
 69            android:authorities="com.foodzone.reactnativefirebaseappinitprovider"
-69-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
+69-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-86
 70            android:exported="false"
-70-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
+70-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-37
 71            android:initOrder="99" />
-71-->[:react-native-firebase_app] /Users/tk-lpt-986/FoodZone/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
+71-->[:react-native-firebase_app] /Users/tk-lpt-986/Pictures/FoodZoneApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-35
 72
 73        <activity
 73-->[com.google.firebase:firebase-auth:22.3.0] /Users/tk-lpt-986/.gradle/caches/transforms-3/d0df9fe367b1cd07db815ccf2f6c0cfb/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
