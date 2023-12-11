@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { FlatList, View } from 'react-native'
 
 import CustomText from '../../../components/CustomText'
@@ -9,7 +9,6 @@ import { SCREEN_HEIGHT } from '../../../config/typography'
 import { RestrauntData } from '../../../utils/localData'
 import RestrauntCard from './components/RestrauntCard'
 import { getStyles } from './style'
-import { deleteData } from '../../../utils/storage'
 
 const HomeScreen: React.FC<any> = (props) => {
 
@@ -19,10 +18,6 @@ const HomeScreen: React.FC<any> = (props) => {
             item: val
         })
     }
-
-    // useEffect(() => {
-    //     deleteData('accessToken')
-    // }, [])
 
     return (
         <LayoutContainer leftIconOff noHeight headerTitle='Home' isHeader>
