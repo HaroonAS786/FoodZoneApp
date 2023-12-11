@@ -2,20 +2,18 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "fire
 import { auth } from "../config/firebase";
 import { useDispatch } from "react-redux";
 import { saveUserToken } from "../redux/actions";
-import { setData } from "../utils/storage";
+import { saveData } from "../utils/storage";
 
 const useAuthentication = () => {
-
-    const dispatch = useDispatch()
 
     const createUserOnFirebase = (email: string, password: any) => {
         return new Promise(async (resolve: any, reject: any) => {
             try {
                 const response = await createUserWithEmailAndPassword(auth, email, password);
                 const idToken = await response.user.getIdToken();
-                dispatch(saveUserToken({ token: idToken }))
+                saveData("accessToken", idToken)
                 // setData("accessToken", idToken)
-                resolve(response)
+                resolve(idToken)
             } catch (error) {
                 reject(error)
             }
@@ -26,9 +24,8 @@ const useAuthentication = () => {
             try {
                 const response = await signInWithEmailAndPassword(auth, email, password);
                 const idToken = await response.user.getIdToken();
-                dispatch(saveUserToken({ token: idToken }))
-                // setData("accessToken", idToken)
-                resolve(response)
+                saveData("accessToken", idToken)
+                resolve(idToken)
             } catch (error) {
                 reject(error)
             }

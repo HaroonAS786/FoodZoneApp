@@ -12,10 +12,14 @@ import { themeColors } from '../../../config/colors';
 import { SCREEN_HEIGHT } from '../../../config/typography';
 import useAuthentication from '../../../hooks/useAuthentication';
 import { getStyles } from './style';
+import { useDispatch } from 'react-redux';
+import { saveData } from '../../../utils/storage';
+import { signIn } from '../../../redux/actions';
 
 const LoginScreen: React.FC<any> = (props) => {
     const [loading, setLoading] = useState(false);
     const styles = getStyles()
+    const dispatch = useDispatch()
     const { userLogin } = useAuthentication()
     const [passwordToggle, setPasswordToggle] = useState(false);
     const [data, setData] = useState({
@@ -67,6 +71,12 @@ const LoginScreen: React.FC<any> = (props) => {
             if (res) {
                 setLoading(false);
                 FlashNotification.show("Login Successfully", 'success')
+                dispatch(
+                    signIn({
+                        token: res,
+                        email: "",
+                    })
+                );
             }
         }).catch((err) => {
             FlashNotification.show(err.message, 'error')

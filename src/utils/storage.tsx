@@ -10,7 +10,7 @@ export const getData = (key: string) => {
     return null;
 };
 
-export const setData = (key: string, data: any) => {
+export const saveData = (key: string, data: any) => {
     storage.set(key, JSON.stringify(data));
 };
 

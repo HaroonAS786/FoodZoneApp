@@ -11,35 +11,18 @@ import MainStack from "./navigation/MainStack";
 import store from "./redux/store";
 import { ScreenOptions } from "./utils/anim";
 import { getUserAccessToken } from "./utils/storage";
+import AuthProvider from "./providers/AuthProvider";
 export const AuthContext = createContext();
 const Stack = createStackNavigator();
 
 LogBox.ignoreAllLogs()
 
-const RootStack = () => {
-    const isLoggedIn = useSelector(state => state.AuthReducer.userToken.token);
-    return (
-        <AuthContext.Provider value={isLoggedIn}>
-            <Stack.Navigator screenOptions={ScreenOptions}>
-                {getUserAccessToken() || isLoggedIn ?
-                    <Stack.Screen name={'MainStack'} component={MainStack} /> :
-                    <Stack.Screen name={'AuthStack'} component={AuthStack} />}
-            </Stack.Navigator>
-        </AuthContext.Provider>
-    )
-}
-
 const Root = () => {
-    React.useEffect(() => {
-        setTimeout(() => {
-            SplashScreen.hide();
-        }, 1000);
-    }, []);
-
+ 
     return (
         <Provider store={store}>
             <NavigationContainer>
-                <RootStack />
+               <AuthProvider/>
             </NavigationContainer>
             <FlashMessage />
         </Provider>

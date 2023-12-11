@@ -12,12 +12,15 @@ import { SCREEN_HEIGHT } from '../../../config/typography';
 import { getStyles } from './style';
 import useAuthentication from '../../../hooks/useAuthentication';
 import FlashNotification from '../../../components/FlashMessage';
+import { useDispatch } from 'react-redux';
+import { signUp } from '../../../redux/actions';
 
 const SignUpScreen: React.FC<any> = (props) => {
     const styles = getStyles();
     const [loading, setLoading] = useState(false);
     const [passwordToggle, setPasswordToggle] = useState(false);
     const [confirmPasswordToggle, setConfirmPasswordToggle] = useState(false);
+    const dispatch = useDispatch()
     const { createUserOnFirebase } = useAuthentication()
     const [data, setData] = useState({
         fName: {
@@ -101,7 +104,12 @@ const SignUpScreen: React.FC<any> = (props) => {
             if (res) {
                 setLoading(false);
                 FlashNotification.show("Account Created", 'success')
-                // props.navigation.navigate("LoginScreen")
+                dispatch(
+                    signUp({
+                        token: res,
+                        email: "",
+                    })
+                );
             }
         }).catch((err) => {
             setLoading(false);

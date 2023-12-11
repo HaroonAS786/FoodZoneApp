@@ -209,4 +209,7 @@ export interface Colors {
 
 export interface AuthState {
     userToken: string;
+    isLoading: boolean,
+    isLogged: boolean,
+    userData: any,
 }
