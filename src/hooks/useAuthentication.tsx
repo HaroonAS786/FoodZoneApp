@@ -1,7 +1,5 @@
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../config/firebase";
-import { useDispatch } from "react-redux";
-import { saveUserToken } from "../redux/actions";
 import { saveData } from "../utils/storage";
 
 const useAuthentication = () => {
@@ -12,7 +10,6 @@ const useAuthentication = () => {
                 const response = await createUserWithEmailAndPassword(auth, email, password);
                 const idToken = await response.user.getIdToken();
                 saveData("accessToken", idToken)
-                // setData("accessToken", idToken)
                 resolve(idToken)
             } catch (error) {
                 reject(error)

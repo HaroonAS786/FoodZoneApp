@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { TouchableOpacity, View } from 'react-native';
 
+import { useDispatch } from 'react-redux';
 import { PasswordLock, PasswordUnlock } from '../../../assets/svgs';
 import CustomButton from '../../../components/CustomButton';
 import CustomText from '../../../components/CustomText';
@@ -11,10 +12,8 @@ import Spacer from '../../../components/Spacer';
 import { themeColors } from '../../../config/colors';
 import { SCREEN_HEIGHT } from '../../../config/typography';
 import useAuthentication from '../../../hooks/useAuthentication';
-import { getStyles } from './style';
-import { useDispatch } from 'react-redux';
-import { saveData } from '../../../utils/storage';
 import { signIn } from '../../../redux/actions';
+import { getStyles } from './style';
 
 const LoginScreen: React.FC<any> = (props) => {
     const [loading, setLoading] = useState(false);

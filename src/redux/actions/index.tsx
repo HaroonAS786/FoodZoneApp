@@ -16,17 +16,10 @@ export const signUp = (payload: any) => ({ type: SIGN_UP, payload });
 export const signIn = (payload: any) => ({ type: SIGN_IN, payload });
 export const signOut = () => ({ type: SIGN_OUT });
 export const continueSession = (payload: any) => ({ type: CONTINUE_SESSION, payload });
-
-export const saveUserToken = (data: any) => ({
-    type: USER_TOKEN,
-    payload: data,
-});
-
 export const addToCart = (item: any) => ({
     type: ADD_TO_CART,
     payload: item,
 });
-
 export const removeCart = (id: string) => ({
     type: REMOVE_CART,
     payload: id,

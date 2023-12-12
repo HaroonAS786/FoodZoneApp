@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, TouchableOpacity, View } from 'react-native';
+
 import CustomText from '../../../../components/CustomText';
 import Spacer from '../../../../components/Spacer';
 import { themeColors } from '../../../../config/colors';

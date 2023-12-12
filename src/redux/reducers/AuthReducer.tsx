@@ -1,6 +1,5 @@
-import { setData } from "../../utils/storage";
 import { AuthState } from "../../utils/types";
-import { CONTINUE_SESSION, SET_USER_DATA, SIGN_IN, SIGN_OUT, SIGN_UP, USER_TOKEN } from "../actions";
+import { CONTINUE_SESSION, SET_USER_DATA, SIGN_IN, SIGN_OUT, SIGN_UP } from "../actions";
 
 const initialState: AuthState = {
 	userData: {},
@@ -11,12 +10,7 @@ const initialState: AuthState = {
 
 const AuthReducer = (state: AuthState = initialState, action: any): AuthState => {
 	switch (action.type) {
-		// case USER_TOKEN:
-		// 	setData("accessToken", action.payload.token)
-		// 	return {
-		// 		...state,
-		// 		userToken: action.payload,
-		// 	};
+		
 		case SET_USER_DATA:
 			return {
 				...state,

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Image, StyleSheet, TouchableOpacity, View } from 'react-native';
+
 import CustomText from '../../../../components/CustomText';
 import Spacer from '../../../../components/Spacer';
 import { themeColors } from '../../../../config/colors';
 import { SCREEN_HEIGHT, SCREEN_WIDTH } from '../../../../config/typography';
 import { CartItem } from '../../../../utils/types';
 import Animated, { FadeInDown } from 'react-native-reanimated';
-
 
 const ItemCard: React.FC<CartItem> = ({ item, index, removeItem }) => {
 

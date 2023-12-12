@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { themeColors } from '../../../config/colors';
 import { SCREEN_WIDTH } from '../../../config/typography';
 
 export const getStyles = () => StyleSheet.create({

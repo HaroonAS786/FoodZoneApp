@@ -40,7 +40,6 @@ const HomeScreen: React.FC<any> = (props) => {
                     </View>
                 )
             })}
-
             <Spacer height={SCREEN_HEIGHT * 0.04} />
         </LayoutContainer>
     )
